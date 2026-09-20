@@ -314,11 +314,24 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 @media (max-width: 720px) {
   .flavours { grid-template-columns: 1fr; }
   .pick-grid { grid-template-columns: 1fr; }
-  .scrollspy { right: 0.55rem; gap: 0.6rem; }
-  .spy-dot { width: 8px; height: 8px; }
+  .scrollspy { display: none; }
   .price { font-size: 0.85rem; }
   .hero { padding: 3rem 0 4rem; }
   .section { padding: 3.5rem 0; }
+  h1 { font-size: 1.9rem; line-height: 1.22; }
+  h2 { font-size: 1.45rem; }
+  h3 { font-size: 1.2rem; }
+  .lead { font-size: 0.95rem; margin-top: 0.9rem; }
+  .head { margin-bottom: 2rem; }
+  .placeholder { min-height: 140px; font-size: 0.85rem; }
+  .placeholder.big, .photo.big { min-height: 0; height: 240px; font-size: 1.05rem; }
+  .photo { height: 150px; }
+  #cakes .photo { height: 180px; }
+  #news .photo { height: 200px; }
+  .card-body { gap: 0.65rem; padding: 1rem 1.1rem 1.2rem; }
+  .pick-card { padding: 1.8rem 1.6rem; }
+  .pick-title { font-size: 1.25rem; }
+  .cat-head { gap: 0.4rem; margin-bottom: 1.2rem; }
   .links {
     position: absolute; top: 100%; left: 0; right: 0;
     background: var(--bg); flex-direction: column;
