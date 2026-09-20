@@ -187,7 +187,7 @@ function orderText(catId, itemName) {
 
 function TubCards({ items, catId }) {
   return (
-    <div className="grid">
+    <div className="grid product-grid">
       {items.map((it) => (
         <article className="card" key={it.id}>
           <Placeholder name={it.placeholder} label={it.name} image={it.image} pos={it.focus} />
