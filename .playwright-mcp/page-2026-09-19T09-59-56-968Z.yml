@@ -1,0 +1,215 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "layerss_thebakehouse" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+      - navigation [ref=e6]:
+        - link "Menu" [ref=e7] [cursor=pointer]:
+          - /url: "#menu"
+        - link "News" [ref=e8] [cursor=pointer]:
+          - /url: "#news"
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+        - link "Contact" [ref=e10] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Order on WhatsApp" [ref=e11] [cursor=pointer]:
+          - /url: https://wa.me/917378777740
+  - generic [ref=e13]:
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: Home cloud kitchen · CSN
+      - heading [level=1] [ref=e16]:
+        - text: Custom cakes & more, baked
+        - emphasis [ref=e17]: with love
+      - paragraph [ref=e18]: Fresh bakes for every occasion — order 24 hours prior and we'll layer up something beautiful for you.
+      - generic [ref=e19]:
+        - link "Explore the menu" [ref=e20] [cursor=pointer]:
+          - /url: "#menu"
+        - link "Order on WhatsApp" [ref=e21] [cursor=pointer]:
+          - /url: https://wa.me/917378777740
+    - generic [ref=e22]:
+      - generic [ref=e23]: Custom Cakes
+      - generic [ref=e26]:
+        - button "Slide 1" [ref=e27] [cursor=pointer]
+        - button "Slide 2" [ref=e28] [cursor=pointer]
+        - button "Slide 3" [ref=e29] [cursor=pointer]
+  - generic [ref=e31]:
+    - generic [ref=e32]:
+      - paragraph [ref=e33]: Our menu
+      - heading "Pick your craving" [level=2] [ref=e34]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Cakes" [level=3] [ref=e37]
+        - paragraph [ref=e38]: Fresh cream & fondant, custom to your occasion
+      - generic [ref=e39]:
+        - article [ref=e40]:
+          - generic [ref=e41]: Classic Vanilla Cake
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - heading "Classic Vanilla Cake" [level=4] [ref=e45]
+              - generic [ref=e46]: ₹649 / 500g
+            - paragraph [ref=e47]: Soft vanilla sponge with vanilla cream
+            - link "Order" [ref=e48] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Classic%20Vanilla%20Cake
+        - article [ref=e49]:
+          - generic [ref=e50]: Rich Chocolate Truffle
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - heading "Rich Chocolate Truffle" [level=4] [ref=e54]
+              - generic [ref=e55]: ₹749 / 500g
+            - paragraph [ref=e56]: Dark chocolate sponge, truffle ganache
+            - link "Order" [ref=e57] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Rich%20Chocolate%20Truffle
+        - article [ref=e58]:
+          - generic [ref=e59]: Crunch Cake
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - heading "Crunch Cake" [level=4] [ref=e63]
+              - generic [ref=e64]: ₹799 / 500g
+            - paragraph [ref=e65]: Chocolate cake with crunchy nut layers
+            - link "Order" [ref=e66] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Crunch%20Cake
+        - article [ref=e67]:
+          - generic [ref=e68]: Butterscotch Cake
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - heading "Butterscotch Cake" [level=4] [ref=e72]
+              - generic [ref=e73]: ₹699 / 500g
+            - paragraph [ref=e74]: Caramel cream with butterscotch praline
+            - link "Order" [ref=e75] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Butterscotch%20Cake
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - heading "Chocolates" [level=3] [ref=e78]
+        - paragraph [ref=e79]: Handmade truffles & bars, gift-ready
+      - generic [ref=e80]:
+        - article [ref=e81]:
+          - generic [ref=e82]: Assorted Truffle Box
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "Assorted Truffle Box" [level=4] [ref=e86]
+              - generic [ref=e87]: ₹399
+            - paragraph [ref=e88]: 12 pcs handmade, mixed flavours
+            - link "Order" [ref=e89] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Assorted%20Truffle%20Box
+        - article [ref=e90]:
+          - generic [ref=e91]: Milk Chocolate Bar
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - heading "Milk Chocolate Bar" [level=4] [ref=e95]
+              - generic [ref=e96]: ₹149
+            - paragraph [ref=e97]: Silky homemade milk chocolate slab
+            - link "Order" [ref=e98] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Milk%20Chocolate%20Bar
+        - article [ref=e99]:
+          - generic [ref=e100]: Hazelnut Pralines
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - heading "Hazelnut Pralines" [level=4] [ref=e104]
+              - generic [ref=e105]: ₹249
+            - paragraph [ref=e106]: Rolled pralines with hazelnut centre
+            - link "Order" [ref=e107] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Hazelnut%20Pralines
+        - article [ref=e108]:
+          - generic [ref=e109]: Choco Dipped Dates
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - heading "Choco Dipped Dates" [level=4] [ref=e113]
+              - generic [ref=e114]: ₹299
+            - paragraph [ref=e115]: Dates covered in dark chocolate
+            - link "Order" [ref=e116] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Choco%20Dipped%20Dates
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - heading "Cupcakes & More" [level=3] [ref=e119]
+        - paragraph [ref=e120]: Little bakes for big smiles
+      - generic [ref=e121]:
+        - article [ref=e122]:
+          - generic [ref=e123]: Frosted Cupcakes (6)
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - heading "Frosted Cupcakes (6)" [level=4] [ref=e127]
+              - generic [ref=e128]: ₹349
+            - paragraph [ref=e129]: Box of 6 with swirl frosting
+            - link "Order" [ref=e130] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Frosted%20Cupcakes%20(6)
+        - article [ref=e131]:
+          - generic [ref=e132]: Walnut Brownies (9)
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - heading "Walnut Brownies (9)" [level=4] [ref=e136]
+              - generic [ref=e137]: ₹399
+            - paragraph [ref=e138]: Fudgy squares loaded with walnuts
+            - link "Order" [ref=e139] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Walnut%20Brownies%20(9)
+        - article [ref=e140]:
+          - generic [ref=e141]: Choco Chip Cookies
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - heading "Choco Chip Cookies" [level=4] [ref=e145]
+              - generic [ref=e146]: ₹249
+            - paragraph [ref=e147]: Crisp edges, gooey centre (250g)
+            - link "Order" [ref=e148] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Choco%20Chip%20Cookies
+        - article [ref=e149]:
+          - generic [ref=e150]: Red Velvet Jar Cake
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - heading "Red Velvet Jar Cake" [level=4] [ref=e154]
+              - generic [ref=e155]: ₹199
+            - paragraph [ref=e156]: Layered cream cheese in a jar
+            - link "Order" [ref=e157] [cursor=pointer]:
+              - /url: https://wa.me/917378777740?text=Hi%20Layerss!%20I'd%20like%20to%20order%3A%20Red%20Velvet%20Jar%20Cake
+  - generic [ref=e159]:
+    - generic [ref=e160]:
+      - paragraph [ref=e161]: From the bakehouse
+      - heading "News & updates" [level=2] [ref=e162]
+    - generic [ref=e163]:
+      - article [ref=e164]:
+        - generic [ref=e165]: New
+        - generic [ref=e167]:
+          - generic [ref=e168]: New
+          - heading "Crunch cake is back" [level=4] [ref=e169]
+          - paragraph [ref=e170]: Our most-loved crunchy chocolate layers return to the weekly menu.
+      - article [ref=e171]:
+        - generic [ref=e172]: Menu
+        - generic [ref=e174]:
+          - generic [ref=e175]: Menu
+          - heading "New flavour drop" [level=4] [ref=e176]
+          - paragraph [ref=e177]: Ask for our limited hazelnut-praline frosting on any cake.
+      - article [ref=e178]:
+        - generic [ref=e179]: Info
+        - generic [ref=e181]:
+          - generic [ref=e182]: Info
+          - heading "Order 24 hr prior" [level=4] [ref=e183]
+          - paragraph [ref=e184]: "Reminder: custom bakes need a heads-up — DM or WhatsApp us."
+  - generic [ref=e186]:
+    - generic [ref=e187]: Made at home, layered with love
+    - generic [ref=e190]:
+      - paragraph [ref=e191]: About us
+      - heading "Layerss — The Bakehouse" [level=2] [ref=e192]
+      - paragraph [ref=e193]: A little home cloud kitchen in Chhatrapati Sambhaji Nagar, making custom cakes, chocolates and more. Every order is baked fresh to order — no two cakes are alike.
+      - list [ref=e194]:
+        - listitem [ref=e195]: Custom cakes for birthdays & occasions
+        - listitem [ref=e196]: Handmade chocolates & gift boxes
+        - listitem [ref=e197]: Order 24 hours prior
+      - link "Follow on Instagram" [ref=e198] [cursor=pointer]:
+        - /url: https://www.instagram.com/layerss_thebakehouse/
+  - contentinfo [ref=e199]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - link "layerss_thebakehouse" [ref=e202] [cursor=pointer]:
+          - /url: "#top"
+        - paragraph [ref=e203]: Custom cakes & more — baked with love.
+        - link "WhatsApp +91 73787 77740" [ref=e204] [cursor=pointer]:
+          - /url: https://wa.me/917378777740
+      - generic [ref=e205]:
+        - heading "Hours" [level=5] [ref=e206]
+        - paragraph [ref=e207]: Mon – Sun10:00 – 20:00
+        - paragraph [ref=e208]: Order 24 hr prior
+      - generic [ref=e209]:
+        - heading "Find us" [level=5] [ref=e210]
+        - paragraph [ref=e211]: Chhatrapati Sambhaji Nagar,Maharashtra, India
+        - link "Instagram" [ref=e212] [cursor=pointer]:
+          - /url: https://www.instagram.com/layerss_thebakehouse/
+      - iframe [ref=e214]
+    - paragraph [ref=e215]: © 2026 Layerss — The Bakehouse

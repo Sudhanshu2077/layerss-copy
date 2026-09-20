@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": "signature-tubs",
+      "name": "Signature Dessert Tubs",
+      "tagline": "250 ml (1 serving) · 500 ml (sharing size) · made fresh to order",
+      "items": [
+        { "id": "1", "name": "Dubai Chocolate Kunafa", "desc": "Pistachio-kunafa layers under rich chocolate", "price": "₹299 | ₹549", "badge": "Bestseller", "placeholder": "dubai-kunafa", "image": "/tubs/dubai-kunafa.jpeg" },
+        { "id": "2", "name": "Lotus\nBiscoff", "desc": "Caramelised biscoff cream with crunchy biscuit crumble", "price": "₹249 | ₹449", "placeholder": "lotus-biscoff", "image": "/tubs/lotus-biscoff.jpeg" },
+        { "id": "3", "name": "Oreo Chocolate Crunch", "desc": "Cookies-and-cream layers with dark chocolate crunch", "price": "₹249 | ₹449", "placeholder": "oreo-crunch", "image": "/tubs/oreo-crunch.jpeg" },
+        { "id": "4", "name": "Matilda Chocolate Cake", "desc": "Deep, dark, gooey chocolate-cake layers in a tub", "price": "₹249 | ₹449", "placeholder": "matilda-cake", "image": "/tubs/matilda-cake.png" }
+      ]
+    },
+    {
+      "id": "flavours",
+      "name": "Our Flavours",
+      "tagline": "Pick a flavour for your custom cake or tub — tap any flavour to order",
+      "items": [
+        { "id": "5", "name": "Strawberry", "desc": "Fresh & fruity strawberry cream", "icon": "🍓", "placeholder": "strawberry" },
+        { "id": "6", "name": "Chocolate", "desc": "Classic rich chocolate", "icon": "🍫", "placeholder": "chocolate" },
+        { "id": "7", "name": "Pineapple", "desc": "Juicy pineapple with light cream", "icon": "🍍", "placeholder": "pineapple" },
+        { "id": "8", "name": "Butterscotch", "desc": "Caramel crunch with butterscotch cream", "icon": "🍬", "placeholder": "butterscotch" },
+        { "id": "9", "name": "Blueberry", "desc": "Sweet-tangy blueberry layers", "icon": "🫐", "placeholder": "blueberry" },
+        { "id": "10", "name": "Blackcurrant", "desc": "Bold & tangy blackcurrant", "icon": "🍇", "placeholder": "blackcurrant" },
+        { "id": "11", "name": "Chocolate Truffle", "desc": "Extra-indulgent dark truffle", "icon": "🌰", "placeholder": "chocolate-truffle" },
+        { "id": "12", "name": "Kitkat", "desc": "Chocolate wafer crunch", "icon": "🧇", "placeholder": "kitkat" },
+        { "id": "13", "name": "Ferrero Rocher", "desc": "Hazelnut & chocolate luxury", "icon": "🧁", "placeholder": "ferrero-rocher" },
+        { "id": "14", "name": "Rasamalai", "desc": "Saffron-milk Indian fusion", "icon": "🥣", "placeholder": "rasamalai" },
+        { "id": "15", "name": "Rosemilk", "desc": "Delicate rose & milk", "icon": "🌹", "placeholder": "rosemilk" },
+        { "id": "16", "name": "Mango", "desc": "Luscious seasonal mango", "icon": "🥭", "placeholder": "mango" },
+        { "id": "17", "name": "Black Forest", "desc": "Cherry, cream & chocolate classic", "icon": "🌲", "placeholder": "black-forest" },
+        { "id": "18", "name": "Biscoff", "desc": "Caramelised lotus biscuit", "icon": "🍪", "placeholder": "biscoff" }
+      ]
+    },
+    {
+      "id": "extras",
+      "name": "Extras",
+      "tagline": "Chocolate crunchies & cookies",
+      "items": [
+        { "id": "19", "name": "Cookie Tin", "desc": "Assorted fresh-baked cookies in a gift tin.", "price": "₹600", "placeholder": "cookie-tin", "image": "/extras/cookie-tin.png", "focus": "center 62%" },
+        { "id": "20", "name": "Crunch Cake", "desc": "Chocolate crunch packs, gift-ready with a spoon.", "price": "₹250", "placeholder": "crunch-cake", "image": "/extras/crunch-cake.jpeg" }
+      ]
+    }
+  ]
+}
