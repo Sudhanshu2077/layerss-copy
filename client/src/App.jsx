@@ -117,8 +117,8 @@ function Nav({ theme, onToggle, view, onHome, onView, onSection }) {
 function Hero() {
   const slides = useMemo(
     () => [
-      { key: "slide-1", label: "Signature Dessert Tubs", image: "/hero/slide-1.png" },
-      { key: "slide-2", label: "14 Cake Flavours", image: "/hero/slide-2.png" },
+      { key: "slide-1", label: "Signature Dessert Tubs", image: "/hero/slide-1.jpg" },
+      { key: "slide-2", label: "14 Cake Flavours", image: "/hero/slide-2.jpg" },
       { key: "slide-3", label: "Made Fresh to Order", image: "/hero/slide-3.jpg" },
     ],
     []
@@ -414,9 +414,9 @@ function TubsView({ menu, onHome }) {
 }
 
 const NEWS = [
-  { t: "Pure quality, always", d: "Every Layerss bake starts with pure, hand-picked quality ingredients — no shortcuts, ever.", tag: "Quality", img: "/news/news-1.png" },
+  { t: "Pure quality, always", d: "Every Layerss bake starts with pure, hand-picked quality ingredients — no shortcuts, ever.", tag: "Quality", img: "/news/news-1.jpg" },
   { t: "New flavours just dropped", d: "Fresh additions to our flavour family — 14 and counting, from Rasamalai to Biscoff.", tag: "New", img: "/news/news-2.jpeg" },
-  { t: "The premium Layerss mark", d: "A brand built on love, layers and respect — premium bakes for your finest moments.", tag: "Premium", img: "/news/news-3.png" },
+  { t: "The premium Layerss mark", d: "A brand built on love, layers and respect — premium bakes for your finest moments.", tag: "Premium", img: "/news/news-3.jpg" },
 ];
 
 function News() {
