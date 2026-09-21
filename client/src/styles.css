@@ -229,8 +229,9 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 
 .footer { background: #2c000b; color: #ece1c8; padding: 3rem 0 1.25rem; }
 .foot-grid { display: grid; grid-template-columns: 1.2fr 0.8fr 0.9fr 1.2fr; gap: 2rem; align-items: start; padding-bottom: 2rem; }
-.footer h5 { font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.7rem; color: var(--gold); }
+.footer h5 { font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.7rem; color: #ece1c8; }
 .footer .logo { color: #ece1c8; }
+.footer .logo span { color: #c9a227; }
 .muted { color: rgba(236, 225, 200, 0.72); font-size: 0.9rem; }
 .link { color: rgba(236, 225, 200, 0.85); text-decoration: underline; }
 .copy { font-size: 0.8rem; color: rgba(236, 225, 200, 0.55); padding-top: 1rem; border-top: 1px solid rgba(236, 225, 200, 0.14); }
