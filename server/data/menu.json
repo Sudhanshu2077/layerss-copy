@@ -8,7 +8,7 @@
         { "id": "1", "name": "Dubai Chocolate Kunafa", "desc": "Pistachio-kunafa layers under rich chocolate", "price": "₹299 | ₹549", "badge": "Bestseller", "placeholder": "dubai-kunafa", "image": "/tubs/dubai-kunafa.jpeg" },
         { "id": "2", "name": "Lotus\nBiscoff", "desc": "Caramelised biscoff cream with crunchy biscuit crumble", "price": "₹249 | ₹449", "placeholder": "lotus-biscoff", "image": "/tubs/lotus-biscoff.jpeg" },
         { "id": "3", "name": "Oreo Chocolate Crunch", "desc": "Cookies-and-cream layers with dark chocolate crunch", "price": "₹249 | ₹449", "placeholder": "oreo-crunch", "image": "/tubs/oreo-crunch.jpeg" },
-        { "id": "4", "name": "Matilda Chocolate Cake", "desc": "Deep, dark, gooey chocolate-cake layers in a tub", "price": "₹249 | ₹449", "placeholder": "matilda-cake", "image": "/tubs/matilda-cake.png" }
+        { "id": "4", "name": "Matilda Chocolate Cake", "desc": "Deep, dark, gooey chocolate-cake layers in a tub", "price": "₹249 | ₹449", "placeholder": "matilda-cake", "image": "/tubs/matilda-cake.jpg" }
       ]
     },
     {
