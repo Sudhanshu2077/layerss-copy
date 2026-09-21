@@ -211,7 +211,7 @@ h4 { font-size: 1.05rem; font-weight: 600; }
   display: flex; align-items: center; justify-content: center;
   font-size: 1.6rem; line-height: 1;
   color: var(--gold);
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid #6b4445;
   border-radius: 50%;
   background: #f6eede;
   overflow: hidden;
@@ -239,9 +239,9 @@ h4 { font-size: 1.05rem; font-weight: 600; }
 .pick-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; }
 .pick-card {
   cursor: pointer; text-align: left; font-family: inherit;
-  background: linear-gradient(180deg, rgba(255, 240, 210, 0.12), rgba(0, 0, 0, 0.15)), #400010;
-  color: #ece1c8;
-  border: 1px solid rgba(44, 0, 11, 0.6);
+  background: linear-gradient(180deg, #fffdf6, #f1e4c9);
+  color: var(--ink);
+  border: 1px solid rgba(64, 0, 16, 0.12);
   border-radius: 24px;
   padding: 2.4rem 2.2rem;
   display: flex; flex-direction: column; gap: 0.6rem;
