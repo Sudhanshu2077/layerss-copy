@@ -9,6 +9,17 @@ const INSTAGRAM = "https://www.instagram.com/layerss_thebakehouse/";
 const waLink = (text) =>
   `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
 
+function scrollToEl(id) {
+  var el = document.getElementById(id);
+  if (!el) return false;
+  try {
+    el.scrollIntoView({ behavior: "smooth" });
+  } catch (err) {
+    el.scrollIntoView();
+  }
+  return true;
+}
+
 function FlavourIcon({ item }) {
   const [failed, setFailed] = useState(false);
   if (failed) {
@@ -522,6 +533,7 @@ export default function App() {
     try {
       const saved = localStorage.getItem("layerss-theme");
       if (saved === "dark" || saved === "light") return saved;
+      if (typeof window.matchMedia !== "function") return "light";
       return window.matchMedia("(prefers-color-scheme: dark)").matches
         ? "dark"
         : "light";
@@ -546,13 +558,17 @@ export default function App() {
   const section = (id) => {
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
+      try {
+        el.scrollIntoView({ behavior: "smooth" });
+      } catch (err) {
+        el.scrollIntoView();
+      }
       return;
     }
     if (view !== "home") {
       setView("home");
       setTimeout(
-        () => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" }),
+        () => scrollToEl(id),
         100
       );
     }

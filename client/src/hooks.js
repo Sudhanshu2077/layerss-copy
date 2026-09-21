@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 
 export function useReveal() {
   useEffect(() => {
+    if (typeof IntersectionObserver === "undefined") {
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => el.classList.add("visible"));
+      return;
+    }
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -19,11 +25,14 @@ export function useReveal() {
         .forEach((el) => io.observe(el));
     };
     observeAll();
-    const mo = new MutationObserver(observeAll);
-    mo.observe(document.body, { childList: true, subtree: true });
+    var mo = null;
+    if (typeof MutationObserver !== "undefined") {
+      mo = new MutationObserver(observeAll);
+      mo.observe(document.body, { childList: true, subtree: true });
+    }
     return () => {
       io.disconnect();
-      mo.disconnect();
+      if (mo) mo.disconnect();
     };
   }, []);
 }
