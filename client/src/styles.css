@@ -86,7 +86,6 @@ img { max-width: 100%; display: block; }
 [data-theme="dark"] .placeholder { color: rgba(236, 225, 200, 0.7); }
 [data-theme="dark"] .footer { background: #200007; }
 [data-theme="dark"] .flavour-icon { background: #260009; }
-[data-theme="dark"] .hero-primary { color: #ece1c8; }
 [data-theme="dark"] .pick-card {
   background: linear-gradient(180deg, rgba(255, 240, 210, 0.14), rgba(0, 0, 0, 0.12)), var(--btn-bg);
   color: var(--btn-text);
