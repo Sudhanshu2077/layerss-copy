@@ -188,7 +188,7 @@ function Hero() {
 
 function orderText(catId, itemName) {
   if (catId === "flavours") {
-    return `Hi Layerss! I'd like a custom cake in ${itemName} flavour.`;
+    return `Hi Layerss! I'd like to order the ${itemName} flavour Dessert Tub.`;
   }
   if (catId === "signature-tubs") {
     return `Hi Layerss! I'd like to order the ${itemName} tub.`;
