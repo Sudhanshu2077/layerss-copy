@@ -37,7 +37,7 @@
       "name": "Extras",
       "tagline": "Chocolate crunchies & cookies",
       "items": [
-        { "id": "19", "name": "Cookie Tin", "desc": "Assorted fresh-baked cookies in a gift tin.", "price": "₹600", "placeholder": "cookie-tin", "image": "/extras/cookie-tin.png", "focus": "center 62%" },
+        { "id": "19", "name": "Cookie Tin", "desc": "Assorted fresh-baked cookies in a gift tin.", "price": "₹600", "placeholder": "cookie-tin", "image": "/extras/cookie-tin.jpg", "focus": "center 62%" },
         { "id": "20", "name": "Crunch Cake", "desc": "Chocolate crunch packs, gift-ready with a spoon.", "price": "₹250", "placeholder": "crunch-cake", "image": "/extras/crunch-cake.jpeg" }
       ]
     }
