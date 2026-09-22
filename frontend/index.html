@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layerss — The Bake House</title>
+    <meta
+      name="description"
+      content="Layerss — The Bake House. Signature dessert tubs and custom cakes in Chhatrapati Sambhajinagar, made fresh to order."
+    />
+    <meta name="theme-color" content="#400010" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14070b" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Layerss — The Bake House" />
+    <meta
+      property="og:description"
+      content="Layer upon layer of happiness — signature dessert tubs and custom cakes, made fresh to order."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/logo-32.png" />
+    <link rel="icon" type="image/png" sizes="180x180" href="/logo-180.png" />
+    <link rel="apple-touch-icon" href="/logo-180.png" />
+    <script>
+      // Set theme before first paint to avoid flashing on reload.
+      try {
+        var t = localStorage.getItem("layerss-theme");
+        if (t !== "dark" && t !== "light") {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        document.documentElement.dataset.theme = t;
+      } catch (e) {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/hero/slide-1.webp"
+      type="image/webp"
+      fetchpriority="high"
+    />
+  </head>
+  <body>
+    <div id="root"><p style="font-family:sans-serif;text-align:center;padding:3rem 1rem;color:#3a0e1a">Loading Layerss… if this never loads, please update your browser.</p></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

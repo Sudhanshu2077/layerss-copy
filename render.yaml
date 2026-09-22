@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: layerss-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    # NOTE: uploads + catalogue live on a persistent disk. The free plan has
+    # no disks — use Starter+ and keep the disk below, or plug an external
+    # store (S3/Cloudinary) and set DATA_DIR accordingly. Without this,
+    # Render's ephemeral filesystem loses admin uploads on restart.
+    plan: starter
+    disk:
+      name: layerss-data
+      mountPath: /data
+      sizeGB: 1
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /data
+      - key: FRONTEND_URL
+        sync: false
+      - key: ADMIN_PASSWORD_HASH
+        sync: false
+      - key: SESSION_SECRET
+        sync: false
