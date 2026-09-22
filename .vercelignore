@@ -1,0 +1,8 @@
+backend/
+render.yaml
+icons-original/
+reference images/
+.serena/
+.playwright-mcp/
+opencode.json
+console.log('FAIL'

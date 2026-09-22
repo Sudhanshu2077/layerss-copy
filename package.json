@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "prebuild": "node -e \"require('fs').copyFileSync('backend/src/data/menu.json', 'api/menu-data.json')\"",
+    "prebuild": "node -e \"try{require('fs').copyFileSync('backend/src/data/menu.json','api/menu-data.json')}catch(e){console.log('prebuild: menu sync skipped - '+e.message)}\"",
     "build": "npm install --prefix frontend && npm run build --prefix frontend",
     "build:frontend": "npm run build --prefix frontend",
     "install:all": "npm install --prefix frontend && npm install --prefix backend",
